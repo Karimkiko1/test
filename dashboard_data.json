@@ -1,0 +1,356 @@
+{
+  "customers": [
+    {
+      "name": "مطعم بيور كاب",
+      "segment": "Premium",
+      "segment_color": "#4ade80",
+      "phone": "01234567890",
+      "type": "مطعم",
+      "city": "محافظة القاهرة",
+      "area": "مدينة نصر",
+      "total_gmv": 1250000,
+      "unique_orders": 3902,
+      "item_count": 15600,
+      "avg_order_value": 320.35,
+      "unique_products": 145,
+      "unique_brands": 32,
+      "unique_dates": 365,
+      "products": {
+        "قهوة تركية": 450,
+        "شاي أخضر": 380,
+        "كابتشينو": 320
+      },
+      "brands": {
+        "نستله": 200,
+        "ليبتون": 180,
+        "أرابيكا": 150
+      },
+      "orders": [
+        {
+          "order_id": "ORD-001",
+          "date": "2024-01-15",
+          "items": [
+            {"product": "قهوة تركية", "brand": "أرابيكا", "quantity": 10, "price": 25, "total": 250},
+            {"product": "شاي أخضر", "brand": "ليبتون", "quantity": 5, "price": 15, "total": 75}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "كافيتيريا مصطفى صبحى",
+      "segment": "Premium",
+      "segment_color": "#4ade80",
+      "phone": "01098765432",
+      "type": "كافيه",
+      "city": "محافظة الجيزة",
+      "area": "الدقي",
+      "total_gmv": 980000,
+      "unique_orders": 2861,
+      "item_count": 11444,
+      "avg_order_value": 342.54,
+      "unique_products": 120,
+      "unique_brands": 28,
+      "unique_dates": 340,
+      "products": {
+        "إسبريسو": 520,
+        "لاتيه": 410,
+        "موكا": 290
+      },
+      "brands": {
+        "لافازا": 250,
+        "إيلي": 200,
+        "نسكافيه": 180
+      },
+      "orders": [
+        {
+          "order_id": "ORD-002",
+          "date": "2024-01-14",
+          "items": [
+            {"product": "إسبريسو", "brand": "لافازا", "quantity": 20, "price": 30, "total": 600},
+            {"product": "لاتيه", "brand": "إيلي", "quantity": 15, "price": 35, "total": 525}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "سان مينا",
+      "segment": "Standard",
+      "segment_color": "#fbbf24",
+      "phone": "01555555555",
+      "type": "مطعم",
+      "city": "محافظة الإسكندرية",
+      "area": "سموحة",
+      "total_gmv": 750000,
+      "unique_orders": 2599,
+      "item_count": 10396,
+      "avg_order_value": 288.57,
+      "unique_products": 95,
+      "unique_brands": 22,
+      "unique_dates": 300,
+      "products": {
+        "شاي أسود": 380,
+        "نسكافيه": 290,
+        "كاكاو": 210
+      },
+      "brands": {
+        "أحمد تي": 180,
+        "نستله": 160,
+        "هيرشي": 140
+      },
+      "orders": [
+        {
+          "order_id": "ORD-003",
+          "date": "2024-01-13",
+          "items": [
+            {"product": "شاي أسود", "brand": "أحمد تي", "quantity": 25, "price": 12, "total": 300}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "خطوة عزيزة",
+      "segment": "Standard",
+      "segment_color": "#fbbf24",
+      "phone": "01122334455",
+      "type": "كافيه",
+      "city": "محافظة القاهرة",
+      "area": "المعادي",
+      "total_gmv": 620000,
+      "unique_orders": 2314,
+      "item_count": 9256,
+      "avg_order_value": 267.93,
+      "unique_products": 88,
+      "unique_brands": 20,
+      "unique_dates": 280,
+      "products": {
+        "فرابتشينو": 340,
+        "آيس لاتيه": 280,
+        "سموثي": 220
+      },
+      "brands": {
+        "ستاربكس": 200,
+        "كوستا": 170,
+        "دانكن": 150
+      },
+      "orders": [
+        {
+          "order_id": "ORD-004",
+          "date": "2024-01-12",
+          "items": [
+            {"product": "فرابتشينو", "brand": "ستاربكس", "quantity": 15, "price": 45, "total": 675}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "w&m",
+      "segment": "Standard",
+      "segment_color": "#fbbf24",
+      "phone": "01066778899",
+      "type": "كافيه",
+      "city": "محافظة القاهرة",
+      "area": "الزمالك",
+      "total_gmv": 580000,
+      "unique_orders": 2063,
+      "item_count": 8252,
+      "avg_order_value": 281.14,
+      "unique_products": 82,
+      "unique_brands": 18,
+      "unique_dates": 260,
+      "products": {
+        "أمريكانو": 310,
+        "كابتشينو": 260,
+        "ماكياتو": 190
+      },
+      "brands": {
+        "إيلي": 180,
+        "لافازا": 150,
+        "سيجافريدو": 130
+      },
+      "orders": [
+        {
+          "order_id": "ORD-005",
+          "date": "2024-01-11",
+          "items": [
+            {"product": "أمريكانو", "brand": "إيلي", "quantity": 20, "price": 28, "total": 560}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "مقهى الصباح",
+      "segment": "Low",
+      "segment_color": "#f87171",
+      "phone": "01199887766",
+      "type": "كافيه",
+      "city": "محافظة الدقهلية",
+      "area": "المنصورة",
+      "total_gmv": 180000,
+      "unique_orders": 850,
+      "item_count": 3400,
+      "avg_order_value": 211.76,
+      "unique_products": 45,
+      "unique_brands": 12,
+      "unique_dates": 150,
+      "products": {
+        "شاي بالنعناع": 180,
+        "قهوة عربية": 150,
+        "ينسون": 120
+      },
+      "brands": {
+        "أبو جبل": 100,
+        "العروسة": 80,
+        "الخير": 70
+      },
+      "orders": [
+        {
+          "order_id": "ORD-006",
+          "date": "2024-01-10",
+          "items": [
+            {"product": "شاي بالنعناع", "brand": "أبو جبل", "quantity": 30, "price": 8, "total": 240}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "مطعم النيل",
+      "segment": "Low",
+      "segment_color": "#f87171",
+      "phone": "01033445566",
+      "type": "مطعم",
+      "city": "محافظة القليوبية",
+      "area": "شبرا الخيمة",
+      "total_gmv": 150000,
+      "unique_orders": 720,
+      "item_count": 2880,
+      "avg_order_value": 208.33,
+      "unique_products": 38,
+      "unique_brands": 10,
+      "unique_dates": 130,
+      "products": {
+        "شاي كشري": 140,
+        "نسكافيه ثلاثة في واحد": 110,
+        "قمر الدين": 90
+      },
+      "brands": {
+        "العروسة": 90,
+        "نستله": 80,
+        "فرسكا": 60
+      },
+      "orders": [
+        {
+          "order_id": "ORD-007",
+          "date": "2024-01-09",
+          "items": [
+            {"product": "شاي كشري", "brand": "العروسة", "quantity": 40, "price": 6, "total": 240}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "كافيه الشروق",
+      "segment": "Premium",
+      "segment_color": "#4ade80",
+      "phone": "01277889900",
+      "type": "كافيه",
+      "city": "محافظة الشرقية",
+      "area": "الزقازيق",
+      "total_gmv": 890000,
+      "unique_orders": 2450,
+      "item_count": 9800,
+      "avg_order_value": 363.27,
+      "unique_products": 110,
+      "unique_brands": 25,
+      "unique_dates": 320,
+      "products": {
+        "كابتشينو إيطالي": 400,
+        "إسبريسو دبل": 350,
+        "فلات وايت": 280
+      },
+      "brands": {
+        "لافازا أورو": 220,
+        "إيلي": 190,
+        "كيمبو": 160
+      },
+      "orders": [
+        {
+          "order_id": "ORD-008",
+          "date": "2024-01-08",
+          "items": [
+            {"product": "كابتشينو إيطالي", "brand": "لافازا أورو", "quantity": 18, "price": 40, "total": 720}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "مطعم الفيروز",
+      "segment": "Standard",
+      "segment_color": "#fbbf24",
+      "phone": "01011223344",
+      "type": "مطعم",
+      "city": "محافظة البحيرة",
+      "area": "دمنهور",
+      "total_gmv": 420000,
+      "unique_orders": 1580,
+      "item_count": 6320,
+      "avg_order_value": 265.82,
+      "unique_products": 72,
+      "unique_brands": 16,
+      "unique_dates": 220,
+      "products": {
+        "شاي سيلاني": 280,
+        "قهوة فرنسية": 220,
+        "كركديه": 180
+      },
+      "brands": {
+        "دلما": 150,
+        "أحمد تي": 130,
+        "سلطان": 110
+      },
+      "orders": [
+        {
+          "order_id": "ORD-009",
+          "date": "2024-01-07",
+          "items": [
+            {"product": "شاي سيلاني", "brand": "دلما", "quantity": 35, "price": 10, "total": 350}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "كافيتيريا السلام",
+      "segment": "Low",
+      "segment_color": "#f87171",
+      "phone": "01544332211",
+      "type": "كافيه",
+      "city": "محافظة المنوفية",
+      "area": "شبين الكوم",
+      "total_gmv": 95000,
+      "unique_orders": 480,
+      "item_count": 1920,
+      "avg_order_value": 197.92,
+      "unique_products": 28,
+      "unique_brands": 8,
+      "unique_dates": 90,
+      "products": {
+        "شاي أحمر": 100,
+        "قهوة تركي": 80,
+        "حلبة": 60
+      },
+      "brands": {
+        "العروسة": 70,
+        "أبو زعبل": 50,
+        "الخير": 40
+      },
+      "orders": [
+        {
+          "order_id": "ORD-010",
+          "date": "2024-01-06",
+          "items": [
+            {"product": "شاي أحمر", "brand": "العروسة", "quantity": 50, "price": 5, "total": 250}
+          ]
+        }
+      ]
+    }
+  ]
+}
