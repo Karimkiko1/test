@@ -17,3 +17,6 @@
 [build.environment]
   NODE_VERSION = "18"
 
+[dev]
+  port = 8000
+
